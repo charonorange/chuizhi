@@ -52,13 +52,21 @@ body { font: 16px/1.8 "Microsoft Yahei",verdana;}
 
 .bg21 { position: absolute; left: 75%; top:20%; bottom: 15%; width: 500px; height: 250px; margin-left: -608px; margin-bottom: 40px; background: url() 0 0 no-repeat; transition: all 1s;  opacity: 0; margin-left: 0px;}
 .bg22 { position: absolute; left: 75%; top:45%; bottom: 15%; width: 500px; height: 299px; margin-left: -409px; margin-bottom: 70px; background: url()  0 no-repeat; transition: all 1s; opacity: 0; margin-left: px;}
-/*.bg23 { position: absolute; left: 35%; top:70%; bottom: 15%; width: 500px; height: 325px; margin-left: -280px; background: url() 50% 0 no-repeat; transition: all 1s;  bottom: -40%;}*/
 .bg23 { position: absolute; left: 25%; top:70%; bottom: 15%; width: 500px; height: 250px; margin-left: -608px; margin-bottom: 40px; background: url() 0 0 no-repeat; transition: all 1s;  opacity: 0; margin-left: 0px;}
+
+
+.bg31 { position: absolute; left: 20%; top:10%;bottom: 0; width: 892px; height: 472px; margin-left: -396px; margin-bottom: 80px; background-image: url(images/bg31.png); opacity: 0; transition: all 1s;}
+.bg32 { position: absolute; left: 20%; top:40%; bottom: 0; width: 892px; height: 472px; margin-left: 600px; background: url(images/bg32.png) 470px bottom no-repeat; opacity: 0; transition: all 1s;}
+.bg33 { position: absolute; left: 20%; top:70%; bottom: 0; width: 892px; height: 380px; margin-left: -396px; background: url(/*images/bg33.png*/) 0 0 no-repeat; opacity: 0; transition: all 1s;}
+
+
+.col-sm-2 div{
+	color:white;
+}
+.group { position: absolute; left: 95%; top: 5%; z-index: 10; width: 512px; height: 45px; margin-left: -256px; font-size: 50px; font-weight: 500; color: #748A9E; opacity: 0; -webkit-transform:scale(0.5, 0.5); transform:scale(0.5, 0.5); transition: all 1s;}
 .pl { position: absolute; left: 50%; top: 20%; width: 510px; margin-left: -255px; margin-top: 130px; font-size: 16px; color: #727F8C; opacity: 0; transition: all 1s;}
 
 .p1 { position: absolute; left: 50%; top: 15%; width: 510px; margin-left: -255px; margin-top: 130px; font-size: 16px; color: #727F8C; opacity: 0; transition: all 1s;}
-
-.group { position: absolute; left: 95%; top: 5%; z-index: 10; width: 512px; height: 45px; margin-left: -256px; font-size: 5	0px; font-weight: 500; color: #748A9E; opacity: 0; -webkit-transform:scale(0.5, 0.5); transform:scale(0.5, 0.5); transition: all 1s;}
 
 
 
@@ -84,9 +92,7 @@ body { font: 16px/1.8 "Microsoft Yahei",verdana;}
 .section9 h3 { width: 609px; margin-left: -304px; background-image: url(images/t9.png);}
 .section9 h3 span { position: absolute; left: -100px; top: -48px; width: 89px; height: 90px; background-image: url(images/yixin.png);}
 
-.bg31 { position: absolute; left: 50%; bottom: 0; width: 892px; height: 472px; margin-left: -396px; margin-bottom: 80px; background-image: url(images/bg31.png); opacity: 0; transition: all 1s;}
-.bg32 { position: absolute; left: 50%; bottom: 0; width: 892px; height: 472px; margin-left: -396px; background: url(images/bg32.png) 470px bottom no-repeat; opacity: 0; transition: all 1s;}
-.bg33 { position: absolute; left: 50%; bottom: 0; width: 441px; height: 380px; margin-left: 50%; background: url(images/bg33.png) 0 0 no-repeat; opacity: 0; transition: all 1s;}
+
 .p3 { position: absolute; width: 430px; left: 50%; top: 15%; margin-top: 250px; margin-left: -100%; font-size: 16px; color: #FFFDE1; opacity: 0; transition: all 1s;}
 
 .bg41 { position: absolute; bottom: -372px; width: 100%; height: 372px; background: url(images/bg41.png) 50% 0 no-repeat; transition: all 1s;}
@@ -154,8 +160,10 @@ body { font: 16px/1.8 "Microsoft Yahei",verdana;}
 .active .bg22 { margin-left: -280px; opacity: 1; transition-delay: 0.7s;}
 
 .active .p3 { margin-left: -480px; opacity: 1; transition-delay: 0.7s;}
-.active .bg31, .active .bg32 { opacity: 1; transition-delay: 1s;}
-.active .bg33 { margin-left: -120px; opacity: 1; transition-delay: 0.7s;}
+/*.active .bg31, .active .bg32 { opacity: 1; transition-delay: 1s;}*/
+.active .bg31{ margin-left: -150px; opacity: 1; transition-delay: 0.7s;}
+.active .bg33 { margin-left: -150px; opacity: 1; transition-delay: 0.7s;}
+.active .bg32 { margin-left: -150px; opacity: 1; transition-delay: 0.7s;}
 
 .active .bg41 { bottom: 15%; transition-delay: 0.7s;}
 .active .bg42 { bottom: 15%; transition-delay: 1.1s;}
@@ -187,7 +195,7 @@ body { font: 16px/1.8 "Microsoft Yahei",verdana;}
 .active .go { top: 25%; opacity: 1; transition-delay: 1.2s;}
 
 /* for lt ie 10 */
-.ltie10 strong, .ltie10 h3 { opacity: 1; transform:scale(1, 1); transition-delay: 0.7s;}
+/*.ltie10 strong, .ltie10 h3 { opacity: 1; transform:scale(1, 1); transition-delay: 0.7s;}
 .ltie10 .p1 { opacity: 1; transition-delay: 1.7s;}
 
 .ltie10 .bg12 { bottom: 90px; opacity: 1; transition-delay: 0.7s; }
@@ -232,7 +240,7 @@ body { font: 16px/1.8 "Microsoft Yahei",verdana;}
 .ltie10 .bg93 { margin-left: 230px; opacity: 1; transition-delay: 0.7s;}
 
 .ltie10 .bg102, .ltie10 .bg103 { opacity: 1; transform:scale(1, 1); transition-delay: 0.7s;}
-.ltie10 .go { top: 25%; opacity: 1; transform:scale(1, 1); transition-delay: 1.2s;}
+.ltie10 .go { top: 25%; opacity: 1; transform:scale(1, 1); transition-delay: 1.2s;}*/
 
 </style>
 <script src="js/jquery.min.js"></script>
@@ -277,37 +285,37 @@ $(function(){
 			<div class="bg">
 				<img src="images/section2.jpg" alt="">
 			</div>
-			<div class="bg21 row">
+			<div class="bg21">
 				<div class="col-sm-2">
 					<img src="images/harry.png" style="border-radius:75px;width:100px">
-				<div style="margin-left:20px;padding:10px">Harry</div>
-			</div>
-			<div class="col-sm-2" style="margin-top:0px;margin-left:40px">
-				<div style="padding:6px">java</div>
-				<div style="padding:6px">web</div>
-				<div style="padding:6px">python</div>
-			</div>
-			<div class="col-sm-7" style="margin-top:10px;margin-left:0px">
-				<div class="progress">
-					<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-		    			<span class="sr-only">40% Complete (success)</span>
-		  		</div>
-			</div>
-				<div class="progress">
-					<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+					<div style="margin-left:20px;padding:10px">Harry</div>
+				</div>
+				<div class="col-sm-2" style="margin-top:0px;margin-left:40px">
+					<div style="padding:6px">java</div>
+					<div style="padding:6px">web</div>
+					<div style="padding:6px">python</div>
+				</div>
+				<div class="col-sm-7" style="margin-top:10px;margin-left:0px">
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+		    				<span class="sr-only">40% Complete (success)</span>
+		  				</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+			    			<span class="sr-only">40% Complete (success)</span>
+			  			</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
 			    		<span class="sr-only">40% Complete (success)</span>
-			  		</div>
-				</div>
-				<div class="progress">
-					<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-			    	<span class="sr-only">40% Complete (success)</span>
-			  		</div>
-				</div>
+			  			</div>
+					</div>
 				</div>
 			</div>
 
 			<!-- lydia -->
-			<div class="bg22">
+			<div class="bg22">	
 				<div class="col-sm-7" style="margin-top:10px;margin-left:-10px">
 					<div class="progress">
 						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
@@ -378,12 +386,109 @@ $(function(){
 <!-- section3 -->
 		<div class="section section3">
 			<div class="bg"><img src="images/section3.jpg" alt=""></div>
-			<div class="bg31"></div>
-			<div class="bg32"></div>
-			<div class="bg33"></div>
-			<strong>[ 视觉化交互设计 ]</strong>
+			<div class="bg31">
+
+
+	
+				<div class="col-sm-2">
+					<img src="images/eric.png" style="border-radius:75px;width:100px">
+					<div style="margin-left:20px;padding:10px">Eric</div>
+				</div>
+				<div class="col-sm-2" style="margin-top:0px;margin-left:40px">
+					<div style="padding:6px">java</div>
+					<div style="padding:6px">web</div>
+					<div style="padding:6px">python</div>
+				</div>
+				<div class="col-sm-7" style="margin-top:10px;margin-left:0px">
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+		    				<span class="sr-only">40% Complete (success)</span>
+		  				</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+			    			<span class="sr-only">40% Complete (success)</span>
+			  			</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+			    		<span class="sr-only">40% Complete (success)</span>
+			  			</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+			</div>
+			<div class="bg32">
+
+				<div class="col-sm-2">
+					<img src="images/alex.png" style="border-radius:75px;width:100px">
+					<div style="margin-left:20px;padding:10px">Alex</div>
+				</div>
+				<div class="col-sm-2" style="margin-top:0px;margin-left:40px">
+					<div style="padding:6px">java</div>
+					<div style="padding:6px">web</div>
+					<div style="padding:6px">python</div>
+				</div>
+				<div class="col-sm-7" style="margin-top:10px;margin-left:0px">
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+		    				<span class="sr-only">40% Complete (success)</span>
+		  				</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+			    			<span class="sr-only">40% Complete (success)</span>
+			  			</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+			    		<span class="sr-only">40% Complete (success)</span>
+			  			</div>
+					</div>
+				</div>
+				
+
+			</div>
+			<div class="bg33">
+				<div class="col-sm-2">
+					<img src="images/alice.jpg" style="border-radius:75px;width:100px">
+					<div style="margin-left:20px;padding:10px">Alice</div>
+				</div>
+				<div class="col-sm-2" style="margin-top:0px;margin-left:40px">
+					<div style="padding:6px">java</div>
+					<div style="padding:6px">web</div>
+					<div style="padding:6px">python</div>
+				</div>
+				<div class="col-sm-7" style="margin-top:10px;margin-left:0px">
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+		    				<span class="sr-only">40% Complete (success)</span>
+		  				</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+			    			<span class="sr-only">40% Complete (success)</span>
+			  			</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+			    		<span class="sr-only">40% Complete (success)</span>
+			  			</div>
+					</div>
+				</div>
+				
+
+			</div>
+<!-- 			<strong>[ 视觉化交互设计 ]</strong>
 			<h3>心随眼动，感官直接体验</h3>
-			<p class="p3">邮箱 6.0 版采用了全新的视觉化交互设计，通过对界面的整体风格设计、重要信息的视觉化处理以及元素本身的视觉传达优化，来实现产品流程设计和交互行为塑造。从视觉的角度出发，让用户无需多想，直接通过感官与产品进行交互。</p>
+			<p class="p3">邮箱 6.0 版采用了全新的视觉化交互设计，通过对界面的整体风格设计、重要信息的视觉化处理以及元素本身的视觉传达优化，来实现产品流程设计和交互行为塑造。从视觉的角度出发，让用户无需多想，直接通过感官与产品进行交互。</p> -->
 		</div>
 
 
