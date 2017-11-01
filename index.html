@@ -47,11 +47,11 @@ body { font: 16px/1.8 "Microsoft Yahei",verdana;}
 
 
 
-.harry { position: absolute; left: 100%;bottom: 15%; width: 500px; height: 250px; margin-left: -608px; margin-bottom: 40px; background: url() 0 0 no-repeat; transition: all 1s;  opacity: 0; margin-left: 0px;}
+.harry { position: absolute; left: 100%;bottom: 15%; width: 80vh; height: 250px; margin-left: -608px; margin-bottom: 40px; background: url() 0 0 no-repeat; transition: all 1s;  opacity: 0; margin-left: 0px;}
 .active .harry { opacity: 1; margin-left: -400px; transition-delay: 0.7s;}
 
-.harrytext { position: absolute; left: 15%; top:20%;bottom: 15%; width: 500px; height: 250px; margin-left: -608px; margin-bottom: 40px; background: url() 0 0 no-repeat; transition: all 1s;  opacity: 0; margin-left: 0px;}
-.active .harrytext { opacity: 1; margin-left: 300px; transition-delay: 0.7s;}
+.harrytext { position: absolute; left: 90px; top:165px;bottom: 15%; width: 550px; height: 250px; margin-left: -300vh; margin-bottom: 6vh; background: url() 0 0 no-repeat; transition: all 1s;  opacity: 0; margin-left: 0px;}
+.active .harrytext { opacity: 1; margin-left: 350px; transition-delay: 0.7s;}
 
 
 .lydia { position: absolute; left: 50%;bottom: 15%; width: 500px; height: 250px; margin-left: -608px; margin-bottom: 40px; background: url() 0 0 no-repeat; transition: all 1s;  opacity: 0; margin-left: 0px;}
@@ -60,6 +60,7 @@ body { font: 16px/1.8 "Microsoft Yahei",verdana;}
 .active .lydiatext { opacity: 1; margin-left: -400px; transition-delay: 0.7s;}
 .group { position: absolute; left: 60%; top: 5%; z-index: 10; width: 900px; height: 45px; margin-left: -256px; font-size: 25px; font-weight: 500; color: #748A9E; opacity: 0; -webkit-transform:scale(0.5, 0.5); transform:scale(0.5, 0.5); transition: all 1s;}
 .groupleft { position: absolute; left: 30%; top: 5%; z-index: 10; width: 900px; height: 45px; margin-left: -256px; font-size: 25px; font-weight: 500; color: white; opacity: 0; -webkit-transform:scale(0.5, 0.5); transform:scale(0.5, 0.5); transition: all 1s;}
+.progress{ margin-bottom:2.5vh;}
 
 
 
@@ -270,9 +271,9 @@ $(function(){
 	}
 	$.fn.fullpage({
 		verticalCentered: false,
-		// anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10'],
-		// navigation: true,
-		// navigationTooltips: ['首页', '视觉', '交互', '皮肤', '功能', '待办邮件', '联系人邮件', '科技', '连接易信', '马上体验']
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10'],
+		navigation: true,
+		navigationTooltips: ['首页', '视觉', '交互', '皮肤', '功能', '待办邮件', '联系人邮件', '科技', '连接易信', '马上体验']
 	});
 });
 </script>
@@ -308,17 +309,16 @@ $(function(){
 					<div class="harry">
 					<div class="col-xs6 col-sm-6">
 						<img src="images/harry.png" style="border-radius:90px;width:180px">
-						<!-- <div style="margin-left:20px;padding:10px">Harry</div> -->
-						<div class="harryskill" style="padding-top:70px;margin-left:-60px">	
-							<div class="col-xs-2 col-sm-2" style="color:grey;font-size:150pxpx">
-								<div style="padding:6px">java</div>
-								<div style="padding:6px">web</div>
-								<div style="padding:6px">python</div>
-								<div style="padding:6px">java</div>
-								<div style="padding:6px">web</div>
-								<div style="padding:6px">python</div>
+						<div class="harryskill" style="padding-top:7vh;margin-left:-6vh">
+							<div class="col-sm-2" style="color:grey;font-size:15px;margin-top:1vh">
+								<div style="padding:1vh">java</div>
+								<div style="padding:1vh">web</div>
+								<div style="padding:1vh">python</div>
+								<div style="padding:1vh">java</div>
+								<div style="padding:1vh">web</div>
+								<div style="padding:1vh">python</div>
 							</div>
-							<div class="col-xs-9 col-sm-9" style="margin-top:10px;margin-left:20px">
+							<div class="col-sm-9" style="margin-top:3vh;margin-left:3vh">
 								<div class="progress">
 									<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
 					    				<span class="sr-only">40% Complete (success)</span>
@@ -349,28 +349,27 @@ $(function(){
 						    		<span class="sr-only">40% Complete (success)</span>
 						  			</div>
 								</div>
-							</div>
+							</div>	
+							
 						</div>
 					</div>
 					</div>	
 				</div>
 				<div class="col-sm-6 harrytext" >
-					<div>
-						<ul style="list-style-type:decimal; font-size:18px">
-							<li>Master Degree in Electronics and Communication Engineering</li>
-							<li>Currently working on Watson Serch, IT as a Service Navigator.</li>
-							<li>Hobbies : Reading, Cooking, Basketball</li>	
-							<li>Master Degree in Electronics and Communication Engineering</li>
-							<li>Native place : Dalian city, Liaoning province.</li>			
+						<ul style="list-style-type:decimal; font-size:2vh;">
+							<li style="padding:1.5vh">Master Degree in Electronics and Communication Engineering</li>
+							<li style="padding:1.5vh">Currently working on Watson Serch, IT as a Service Navigator.</li>
+							<li style="padding:1.5vh">Hobbies : Reading, Cooking, Basketball</li>	
+							<li style="padding:1.5vh">Master Degree in Electronics and Communication Engineering</li>
+							<li style="padding:1.5vh">Native place : Dalian city, Liaoning province.</li>			
 						</ul>	
-					</div>	
 				</div>
-				<div class="col-sm-11 shake-slow" style="margin-top:10%;margin-rignt:40px;">
-						<img src="images/bage.png" style="width:100px;float:right;">
-						<img src="images/bage2.png" style="width:100px;float:right;">
-						<img src="images/bage3.png" style="width:100px;float:right;">
-						<img src="images/bage.png" style="width:100px;float:right;">
-						<img src="images/bage2.png" style="width:100px;float:right;">
+				<div class="col-sm-11" style="margin-top:20vh;margin-rignt:40vh;">
+						<img class="shake-slow shake-constant shake-constant--hover" src="images/bage.png" style="width:100px;float:right;"	>
+						<img class="shake-slow shake-constant " src="images/bage2.png" style="width:100px;float:right;">
+						<img class="shake-slow shake-constant shake-constant--hover" src="images/bage3.png" style="width:100px;float:right;">
+						<img class="shake-slow shake-constant shake-constant--hover" src="images/bage.png" style="width:100px;float:right;">
+						<img class="shake-slow shake-constant" src="images/bage2.png" style="width:100px;float:right;">
 						
 				</div>
 				<img src="images/bage3.png" style="width:120px">
@@ -541,7 +540,7 @@ $(function(){
 						<img src="images/thomas.png" style="border-radius:90px;width:180px">
 						<!-- <div style="margin-left:20px;padding:10px">Harry</div> -->
 						<div class="harryskill" style="padding-top:70px;margin-left:-60px">	
-							<div class="col-sm-2" style="color:#EAEAEA;font-size:150pxpx">
+							<div class="col-sm-2" style="color:#EAEAEA;font-size:150px">
 								<div style="padding:6px">java</div>
 								<div style="padding:6px">web</div>
 								<div style="padding:6px">python</div>
